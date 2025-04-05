@@ -2,8 +2,21 @@ site_name: mkasianiuk
 site_url: https://mkasianiuk.github.io/mkdocs/
 theme:
   name: material
+  features:
+    - navigation.indexes
+nav:
+  - ...
+  - Blog:
+    - blog/index.md
+
 site_author: Maksim Kasianiuk
 copyright: Maksim Kasianiuk, 2025
+
+plugins:
+  - search
+  - tags
+  - optimize
+  - blog
 
 markdown_extensions:
   - admonition
