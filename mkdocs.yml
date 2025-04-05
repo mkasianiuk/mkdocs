@@ -1,0 +1,11 @@
+site_name: mkasianiuk
+site_url: https://mkasianiuk.github.io/mkdocs/
+theme:
+  name: material
+site_author: Maksim Kasianiuk
+copyright: Maksim Kasianiuk, 2025
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
