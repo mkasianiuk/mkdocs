@@ -1,9 +1,12 @@
 site_name: mkasianiuk
 site_url: https://mkasianiuk.github.io/mkdocs/
+repo_url: https://github.com/mkasianiuk/mkdocs
 theme:
   name: material
   features:
     - navigation.indexes
+  icon:
+    repo: fontawesome/brands/github
 nav:
   - ...
   - Blog:
