@@ -18,7 +18,6 @@ copyright: Maksim Kasianiuk, 2025
 plugins:
   - search
   - tags
-  - optimize
   - blog
 
 markdown_extensions:
